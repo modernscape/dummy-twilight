@@ -6,6 +6,7 @@ const nextConfig = {
   },
   // リポジトリ名が 'my-app' の場合、'/my-app' と指定が必要（カスタムドメインを使わない場合）
   // basePath: '/repo-name',
+  trailingSlash: true,
 }
 
 export default nextConfig
